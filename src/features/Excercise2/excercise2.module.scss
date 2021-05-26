@@ -1,0 +1,28 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .counterText{
+        font-size: 40px;
+        font-weight: 600;
+        color: #898989;
+    }
+    .buttonSection {
+        button {
+            background: #6f6ffd;
+            padding: 8px 12px;
+            border: 0;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 8px;
+            &:hover {
+                background: #6f6ffdc2;
+            }
+        }
+    }
+}

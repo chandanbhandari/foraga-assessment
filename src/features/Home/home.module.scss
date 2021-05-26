@@ -1,0 +1,20 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    button {
+        background: #6f6ffd;
+        padding: 8px 12px;
+        border: 0;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+            background: #6f6ffdc2;
+        }
+    }
+}

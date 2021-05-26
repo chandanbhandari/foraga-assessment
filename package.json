@@ -6,13 +6,20 @@
   "dependencies": {
     "@types/react": "^17.0.6",
     "@types/react-dom": "^17.0.5",
+    "@types/react-router-dom": "^5.1.7",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-emoji-render": "^1.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "start": "webpack serve --config webpack.dev.config.ts",
+    "start": "webpack serve --config webpack.dev.config.ts --hot",
     "build": "webpack --config webpack.prod.config.ts"
   },
   "eslintConfig": {
@@ -25,6 +32,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@apollo/client": "^3.3.19",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
@@ -34,6 +42,7 @@
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
     "eslint": "^7.27.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-typescript": "^12.3.1",
@@ -44,8 +53,13 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "graphql": "^15.5.0",
     "html-webpack-plugin": "^5.3.1",
+    "lodash.debounce": "^4.0.8",
     "prettier": "^2.3.0",
+    "sass-loader": "^11.1.1",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"

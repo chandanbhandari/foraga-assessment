@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: flex;
+    .sectionContainer {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        .input {
+            padding: 8px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            color: grey;
+            cursor: pointer;
+            width: 220px;
+            margin: 20px 0;
+        }
+        .countryListContainer {
+            height: 600px;
+            overflow-y: scroll;
+        }
+    }
+}
